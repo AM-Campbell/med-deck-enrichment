@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+.ruff_cache/
+.pytest_cache/
+.coverage
+
+# Large external data (symlinks)
+data/
+
+# Pipeline outputs
+results/
