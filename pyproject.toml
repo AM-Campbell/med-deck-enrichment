@@ -5,6 +5,7 @@ description = "Semi-manual enrichment of the AnKing Anki deck with UMLS concepts
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "polars>=1.0",
+    "pyzstd>=0.16.0",
     "quickumls>=1.4",
     "textual>=1.0",
 ]
